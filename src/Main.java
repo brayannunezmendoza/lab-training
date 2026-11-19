@@ -1,7 +1,11 @@
 package src;
 
+import src.two_sum.Two_Sum;
+
 public class Main {
     static void main() {
-        System.out.println("test java in intelijei");
+    //escolha do projeto
+        new Two_Sum();
+
     }
 }
