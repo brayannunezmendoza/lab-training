@@ -11,7 +11,6 @@ public class Solution {
 
 
         int[] res = twoSum(nums2, target2);
-        // System.out.println(res[0] + ", " + res[1]);
 
     }
 
