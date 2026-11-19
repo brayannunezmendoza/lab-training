@@ -16,32 +16,6 @@ public class Solution {
     }
 
     public int[] twoSum(int[] nums, int target) {
-       /* int[] sum1 = nums;
-        int[] sum2 = nums;
-        int n1;
-        int n2;
-
-        for (int i = 0; nums.length > i; i++) {
-            for (int j = 0; sum2.length > j; j++) {
-                if (sum1.length == 1) {
-                    if (sum1[i] == sum2[j] && sum1.length == 1) {
-                        n1 = sum1[i];
-                        n2 = sum2[j];
-                        return new int[]{n1, n2};
-                    }
-                } else {
-                    if (sum1[i] != sum2[j]) {
-                        if (sum1[i] + sum2[j] == target) {
-                            n1 = sum1[i];
-                            n2 = sum2[j];
-                            return new int[]{n1, n2};
-                        }
-                    }
-                }
-
-            }
-        }
-         +-*/
         //se houver mais de 2 valores no nums[]
         if (nums.length > 2) {
             for (int i = 0; i < nums.length; i++) {
